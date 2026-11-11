@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tech Book Club | Read, Learn, Build</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- Google Fonts for a modern look -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&family=Space+Grotesk:wght@500;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Header Navigation -->
+    <header class="header">
+        <nav class="nav container">
+            <a href="#" class="logo">Tech<span>BookClub</span></a>
+            <ul class="nav-links">
+                <li><a href="#features">Features</a></li>
+                <li><a href="#books">Library</a></li>
+                <li><a href="#cta">Join</a></li>
+            </ul>
+            <!-- Unique Feature: Dark Mode Toggle -->
+            <button id="theme-toggle" class="theme-toggle" aria-label="Toggle dark mode">
+                <span class="toggle-icon">🌙</span>
+            </button>
+        </nav>
+    </header>
+
+    <main>
+        <!-- Hero Section with Typing Effect -->
+        <section class="hero">
+            <div class="container hero-content">
+                <h1 class="hero-title">
+                    <span class="typing-text"></span>
+                    <span class="cursor">|</span>
+                </h1>
+                <p class="hero-subtitle">Join the ultimate tech book club. Level up your skills one chapter at a time.</p>
+                <a href="#cta" class="btn btn-primary">Become a Member</a>
+            </div>
+        </section>
+
+        <!-- Features Section -->
+        <section id="features" class="features container">
+            <h2 class="section-title">Why Join Us?</h2>
+            <div class="features-grid">
+                <div class="feature-card">
+                    <h3>📚 Curated Reading</h3>
+                    <p>Get hand-picked recommendations from industry experts.</p>
+                </div>
+                <div class="feature-card">
+                    <h3>💬 Vibrant Discussions</h3>
+                    <p>Connect with fellow readers in our active community.</p>
+                </div>
+                <div class="feature-card">
+                    <h3>🚀 Level Up Fast</h3>
+                    <p>Apply what you learn directly to your projects.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Book Grid Section -->
+        <section id="books" class="books container">
+            <h2 class="section-title">Current Reads</h2>
+            <div class="book-grid">
+                <div class="book-card">
+                    <div class="book-cover" style="background-color: #2563eb;"></div>
+                    <h3>Clean Code</h3>
+                    <p>Robert C. Martin</p>
+                </div>
+                <div class="book-card">
+                    <div class="book-cover" style="background-color: #db2777;"></div>
+                    <h3>Designing Data-Intensive Applications</h3>
+                    <p>Martin Kleppmann</p>
+                </div>
+                <div class="book-card">
+                    <div class="book-cover" style="background-color: #059669;"></div>
+                    <h3>The Pragmatic Programmer</h3>
+                    <p>Andrew Hunt</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Call to Action -->
+        <section id="cta" class="cta">
+            <div class="container cta-content">
+                <h2>Ready to turn pages into progress?</h2>
+                <a href="#" class="btn btn-secondary">Subscribe Now</a>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2024 Tech Book Club. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
